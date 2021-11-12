@@ -7,7 +7,7 @@ public class Exception01 {
             for (String arg : args) {
                 sum = sum + Double.parseDouble(arg);
             }
-            System.out.println("Sum=" + sum);
+            System.out.println("Sum = " + sum);
         } catch (NumberFormatException e) {
             System.out.println(e.getMessage());
         }
